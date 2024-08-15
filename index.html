@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="mx-5">
+    <!-- Navbar section  -->
+
+    <div class="">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">M-Teck</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                  <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Ongoing</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- card section -->
+    <div
+      class="product d-flex justify-content-around p-3 mt-2 align-items-center"
+    >
+      <div>
+        <h2>Our Destination</h2>
+      </div>
+
+      <div>
+        <div class="card" style="width: 18rem">
+          <img src="./asset/1397133.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">The Black Hole</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary align-center">Visist</a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="width: 18rem">
+          <img src="./asset/4054417.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Wonder Moon</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Visit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- list group section  -->
+
+    <div
+      class="d-flex justify-content-around p-3 list-button mt-4 align-items-center"
+    >
+      <!-- Bootstrap Buttons -->
+      <div class="">
+        <div class="text-center fw-semibold"><h3>Bootstrap Buttons</h3></div>
+        <div class="d-flex justify-content-around gap-4 mt-2">
+          <div class="d-flex flex-column gap-1">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary">
+              Primary
+            </button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-secondary">
+              Secondary
+            </button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-outline-success">
+              Success
+            </button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-outline-warning">
+              Warning
+            </button>
+          </div>
+
+          <div class="d-flex flex-column gap-1">
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-link">Link</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="vr"></div>
+      <!-- Bootstrap Buttons -->
+      <div>
+        <div>
+          <h3 class="text-center fw-semibold">Bootstrap List Group</h3>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item">Item 1</li>
+          <li class="list-group-item">Item 2</li>
+          <li class="list-group-item">Item 3</li>
+          <li class="list-group-item">Item 4</li>
+          <li class="list-group-item">Item 5</li>
+          <li class="list-group-item">Item 6</li>
+          <li class="list-group-item">Item 7</li>
+          <li class="list-group-item">Item 8</li>
+          <li class="list-group-item">Item 9</li>
+          <li class="list-group-item">Item 10</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bootstrap Pagination section  -->
+
+    <div class="mt-4 product px-5 pt-5 pb-3">
+      <div class="d-flex justify-content-around">
+        <div class="card" style="width: 18rem">
+          <img src="./asset/1397133.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">The Black Hole</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary align-center">Visist</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./asset/4054417.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">The Black Hole</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary align-center">Visist</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./asset/1397133.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">The Black Hole</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary align-center">Visist</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paginaton  -->
+      <div class="mt-4 mx-auto" style="width: 300px">
+        <nav aria-label="...">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Bootstrap Progressbar section -->
+
+    <div class="list-button mt-5 p-5">
+      <h3 class="text-center">My Skill</h3>
+
+      <div class="ms-auto me-auto">
+        <!-- skill name -->
+
+        <!-- <div class="mt-2 bg-black text-white text-end">
+            <div  class="fw-bold"><p>HTMl</p></div>
+            <div  class="fw-bold pt-3 pb-3"><p>CSS</p></div>
+            <div  class="fw-bold pt-2"><p>BOOTSTRAP</p></div>
+            <div  class="fw-bold"><p>JAVASCRIPT</p></div>
+            
+        </div> -->
+
+        <!-- parsent with progressbar -->
+        <div class="w-75 mx-auto ">
+          <div>
+            <h5>HTML</h5>
+          </div>
+          <div class="">
+            <div
+              class="progress h-25"
+              role="progressbar"
+              aria-label="Success example"
+              aria-valuenow="85"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div class="progress-bar bg-success" style="width: 85%; height: 30px;">85%</div>
+            </div>
+          </div>
+          <div class="mt-1">
+            <h5>CSS</h5>
+        </div>
+          <div
+            class="progress mt-2 h-25"
+            role="progressbar"
+            aria-label="Info example"
+            aria-valuenow="83"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-info text-dark" style="width: 83% ; height: 30px;">
+              83%
+            </div>
+          </div>
+
+          <div class="mt-1">
+            <h5>BOOTSTRAP</h5>
+        </div>
+          <div
+            class="progress mt-2 h-25"
+            role="progressbar"
+            aria-label="Warning example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-warning text-dark" style="width: 80%; height: 30px;">
+              80%
+            </div>
+          </div>
+
+          <div class="mt-1">
+            <h5>JAVASCRIPT</h5>
+        </div>
+          <div
+            class="progress mt-2 h-25"
+            role="progressbar"
+            aria-label="Danger example"
+            aria-valuenow="82"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div class="progress-bar bg-danger" style="width: 82%; height: 30px;">82%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Table section -->
+
+    <div class="product p-5 mt-5">
+        <div class="text-center mb-2">
+          <h3 >Our Authorities</h3>
+        </div>
+      <table class="table table-striped mx-auto">
+        <thead>
+          <tr>
+            <th scope="col">SL</th>
+            <th scope="col">Name</th>
+            <th scope="col">Degisnation</th>
+            <th scope="col">Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mahadi Hassan</td>
+            <td>Chairman</td>
+            <td>mahadi@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Saif Hassan</td>
+            <td>MD</td>
+            <td>saif@gmail.com</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td >Mr Bayaxid</td>
+            <td>CEO</td>
+            <td>Bayaxid@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <!-- Bootstrap Dropdown and Form section -->
+
+    <div class="list-button p-4 mt-4 d-flex justify-content-around">
+      <!-- Dropdown -->
+      <div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle ms-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Get more click here
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item active" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
+
+        <img class="dropdown-img rounded mt-5" src="./asset/4054417.jpg" alt="">
+      </div>
+
+      <!-- Form  -->
+      <div>
+
+        <div class="text-center mb-2"><h5>Please Login</h5></div>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer section  -->
+
+   <div class="bg-dark text-white p-3 text-center mt-4 ">
+    <footer>
+    &copy;2024 All right reserved by Mr Mahadi Hassan. 
+    </footer>
+   </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
